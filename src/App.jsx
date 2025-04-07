@@ -28,7 +28,8 @@ function App() {
     setLoading(true);
     setError('');
     try {
-      const response = await axios.post('http://localhost:8080/api/email/generate', {
+      const response = await axios.post('https://emailassistantbackend-production-315a.up.railway.app/api/email/generate', {
+
 
 
         emailContent,
